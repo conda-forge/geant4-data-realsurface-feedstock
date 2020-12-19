@@ -1,6 +1,5 @@
 {% set dataset_name = "RealSurface" %}
-{% set version = "2.1.1" %}
-{% set sha256 = "622ffead2c03fbeeb04dc9b7b8b8bd51ec482c00d1069d4bc44d5f64dbe1da47" %}
+{% set version = "2.2" %}
 {% set env_var = "G4REALSURFACEDATA" %}
 {% set summary = "GEANT4 data files for measured optical surface reflectance" %}
 
@@ -13,7 +12,7 @@ package:
 
 source:
     url: https://geant4-data.web.cern.ch/geant4-data/datasets/G4{{ dataset_name }}.{{ version }}.tar.gz
-    sha256: {{ sha256 }}
+    sha256: 9954dee0012f5331267f783690e912e72db5bf52ea9babecd12ea22282176820
     folder: dataset
 
 build:
