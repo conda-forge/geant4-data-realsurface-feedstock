@@ -1,5 +1,5 @@
 {% set dataset_name = "RealSurface" %}
-{% set version = "2.2 %}
+{% set version = "2.2" %}
 {% set env_var = "G4REALSURFACEDATA" %}
 {% set summary = "GEANT4 data files for measured optical surface reflectance" %}
 
